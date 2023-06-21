@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Квадраты по диагонали</title>
+  <style>
+    .square {
+      position: absolute;
+      width: 100px;
+      height: 100px;
+    }
+
+    .first-square {
+      top: 0;
+      left: 0;
+      background-color: red;
+    }
+
+    .second-square {
+      top: 50px;
+      left: 50px;
+      background-color: purple;
+      z-index: 1;
+    }
+
+    .third-square {
+      top: 100px;
+      left: 100px;
+      background-color: green;
+    }
+  </style>
+</head>
+<body>
+  <div class="square first-square"></div>
+  <div class="square second-square"></div>
+  <div class="square third-square"></div>
+</body>
+</html>
